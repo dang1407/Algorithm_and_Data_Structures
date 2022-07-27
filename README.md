@@ -3,9 +3,9 @@
 ## Week 1
   C++ program to print all the prime number small than or equal to n (a given number) by Sieve of Eratosthenes
 * Idea: 
-+ Step 1: Initialize a bool array(or vector) with n+1 elements, set all the elements is true
+- Step 1: Initialize a bool array(or vector) with n+1 elements, set all the elements is true
         bool prime[n+1];
-+ Step 2: Create a for loop, mark all the numbers aren't a prime number with the label false:
+- Step 2: Create a for loop, mark all the numbers aren't a prime number with the label false:
         + In each time in for loop, another for loop to mark numbers that are multiples of primes as false
         for(int p = 2; p*p <= n; p++){
            if(prime[p]){
